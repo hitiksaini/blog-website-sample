@@ -1,0 +1,13 @@
+
+<%- include("partials/header"); -%>
+
+    <h1 class="blog-heading">Home</h1>
+<h2>here we will have some of the best showing blog</h2>
+
+  <%  posts.forEach(function(post){ %>
+    <h1><%=post.title%></h1>
+    <p><%=post.content%></p>
+    <% }) %>
+<a class="blog-heading" href="/compose">write a blog</a>
+
+<%- include("partials/footer"); -%>
