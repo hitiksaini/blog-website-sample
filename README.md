@@ -7,9 +7,9 @@ This is a prototype for a sample Blog Website.
 # Prerequisite
 Install latest version of nodejs & mongoDB(database) into your PC for this to work. I have explained the installation process below refer to it and when you're done. You now just need to open terminal and write these commands:
 
-* git clone "url of this repo" 
+* git clone https://github.com/hitiksaini/Blog-Website.git 
 * navigate to where you downloaded the repository
-* node app.js (this will run the whole node.js coded project and you will see the blog webiste on your local servers)
+* node app.js (this will run the whole node.js coded project and you will see the blog website on your local servers)
 
 # Installation Guide: Node.js | Express.js | MongoDB
 ## Node.js on Windows : [Download](https://nodejs.org/en/)
