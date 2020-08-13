@@ -64,4 +64,8 @@ Now set alias to your database based on your database directory in your C drive.
 * touch .bash_profile
 * now open this bash file and set alias (mongo = "just paste the directory")
 
+
+Here is the official document which guide you step by step for installing mongoDB locally.
+Refer to this: https://docs.mongodb.com/guides/server/install/
+
 # You can always contact for any help😉
