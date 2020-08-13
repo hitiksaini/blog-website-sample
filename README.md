@@ -1,5 +1,5 @@
-# Blog-Website
-## By [Hitik Saini](https://hitik20.tech)
+# Blog Website
+## Project By [Hitik Saini](https://hitik20.tech)
 Start your Blog today!
 Here you will find a node.js coded back-end and ejs coded front-end for your personal/community blog.
 This is a prototype for a sample Blog Website.
