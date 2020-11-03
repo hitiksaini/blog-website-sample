@@ -1,15 +1,16 @@
-## Blog Website
-### Project By [Hitik Saini](https://hitik20.tech)
-Start your Blog today!
-Here you will find a node.js coded back-end and ejs coded front-end for your personal/community blog.
-This is a prototype for a sample Blog Website.
+## Blog Website 📝📌
+### Project By [Hitik Saini](https://hitik20.tech/)
+A node.js coded website for your personal/community blog. This is just a prototype for a sample Blog Website you will need to re-design as per your choice.
 
 ### Prerequisite
-Install latest version of nodejs & mongoDB(database) into your PC for this to work. I have explained the installation process below refer to it and when you're done. You now just need to open terminal and write these commands:
+Install latest version of nodejs & mongoDB(database) into your PC for this to work. I have explained the installation process below refer to it and when you're done.
 
-* git clone https://github.com/hitiksaini/Blog-Website.git 
-* navigate to where you downloaded the repository
-* node app.js (this will run the whole node.js coded project and you will see the blog website on your local servers)
+You now just need to open terminal and write these commands:
+
+* ### `git clone https://github.com/hitiksaini/Blog-Website.git `
+* navigate to where you downloaded the repository and install all the requirements `npm install` 
+* ### `node app.js` 
+If all goes well and you configure all the required modules correctly, this will run the whole node.js coded project and you will see the blog website on your local servers(https://localhost:3000/)
 
 # Installation Guide: Node.js | Express.js | MongoDB
 ## Node.js on Windows : [Download](https://nodejs.org/en/)
@@ -40,7 +41,7 @@ Installation Steps
 You should see the version of node you have just installed.
 
 #### Express is a framework for Node.js it can be used by using npm package.
-npm install express
+### `npm install express`
 
 # MongoDB Installation 
 ## Download the msi file based on your platform(windows, mac, linux etc) [Download](https://www.mongodb.com/try/download/community)
