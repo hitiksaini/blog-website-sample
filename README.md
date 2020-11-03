@@ -1,10 +1,10 @@
-# Blog Website
-## Project By [Hitik Saini](https://hitik20.tech)
+## Blog Website
+### Project By [Hitik Saini](https://hitik20.tech)
 Start your Blog today!
 Here you will find a node.js coded back-end and ejs coded front-end for your personal/community blog.
 This is a prototype for a sample Blog Website.
 
-# Prerequisite
+### Prerequisite
 Install latest version of nodejs & mongoDB(database) into your PC for this to work. I have explained the installation process below refer to it and when you're done. You now just need to open terminal and write these commands:
 
 * git clone https://github.com/hitiksaini/Blog-Website.git 
@@ -39,7 +39,7 @@ Installation Steps
 
 You should see the version of node you have just installed.
 
-## Express is a framework for Node.js it can be used by using npm package.
+#### Express is a framework for Node.js it can be used by using npm package.
 npm install express
 
 # MongoDB Installation 
@@ -68,4 +68,4 @@ Now set alias to your database based on your database directory in your C drive.
 Here is the official document which guide you step by step for installing mongoDB locally.
 Refer to this: https://docs.mongodb.com/guides/server/install/
 
-# You can always contact for any help😉
+### You can always contact for any help😉
