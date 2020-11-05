@@ -2,6 +2,8 @@
 ### Project By [Hitik Saini](https://hitik20.tech/)
 A node.js coded website for your personal/community blog. This is just a prototype for a sample Blog Website you will need to re-design as per your choice.
 
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/hitiksaini/Blog-Website/issues)
+
 ### Prerequisite
 Install latest version of nodejs & mongoDB(database) into your PC for this to work. I have explained the installation process below refer to it and when you're done:
 
