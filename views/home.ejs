@@ -1,13 +1,27 @@
+<% layout('layout/main') -%>
+<% block('title', 'Home') -%>
 
-<%- include("partials/header"); -%>
+<div class="container home__container">
+  <h1 class="blog-heading">Welcome to our blog</h1>
+  <h4 class="blog-sub-heading text-muted">here we will have some of the best showing blog</h4>
+</div>
+  <a class="btn btn-primary home__write-btn" href="/compose">Write a blog</a>
+<div class="container home__container-post">
+  <div class="row mr-5">
+    <%  posts.forEach(function(post){ %>
+      <!-- <h1><%=post.title%></h1>
+      <p><%=post.content%></p> -->
 
-    <h1 class="blog-heading">Home</h1>
-<h2>here we will have some of the best showing blog</h2>
+      <div class="card col-3 offset-1 mt-5 ">
+        <div class="card-body home__card">
+          <h5 class="card-title"><%=post.title%></h5>
+          <p class="card-text"><%=post.content%></p>
+          <a href="#" class="btn btn-primary home__post-btn">Read more</a>
+        </div>
+      </div>
+      <% }) %>
+  </div>
+</div>
 
-  <%  posts.forEach(function(post){ %>
-    <h1><%=post.title%></h1>
-    <p><%=post.content%></p>
-    <% }) %>
-<a class="blog-heading" href="/compose">write a blog</a>
 
-<%- include("partials/footer"); -%>
+
