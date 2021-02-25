@@ -4,8 +4,7 @@
   "description": "blog project by Hitik Saini",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js -e js,ejs",
-     "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "hitik",
   "license": "ISC",
@@ -14,9 +13,7 @@
     "ejs": "^3.1.6",
     "ejs-locals": "^1.0.2",
     "express": "^4.17.1",
+    "nodemon": "^2.0.4",
     "mongoose": "^5.11.18"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
-  }
 }
