@@ -9,13 +9,13 @@
   "author": "hitik",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
-    "ejs": "^2.6.1",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
     "ejs-locals": "^1.0.2",
-    "express": "^4.16.3",
-    "mongoose": "^5.10.11"
+    "express": "^4.17.1",
+    "mongoose": "^5.11.18"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.7"
   }
 }
