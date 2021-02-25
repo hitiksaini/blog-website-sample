@@ -4,7 +4,8 @@
   "description": "blog project by Hitik Saini",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js -e js,ejs"
+    "start": "node app.js -e js,ejs",
+     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "hitik",
   "license": "ISC",
