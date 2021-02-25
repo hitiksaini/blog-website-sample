@@ -81,6 +81,6 @@ app.get('/contact', function (req, res) {
 });
 
 //listening on local server | use a dynamic port when hosting on web.
-app.listen((process.env.PORT || 3000, function () {
+app.listen(process.env.PORT || 3000, function () {
   console.log('Server started on port : http://localhost:3000');
 });
