@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
+
 body {
   background-color: #f9faff !important;
   color: #212145 !important;
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
-
+.top-m{
+  margin-top: 12%;
+}
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
 }
 .navbar {
-  background-color: none !important;
+  background-color: #f9faff !important;
 }
 
 .navbar__links {
@@ -49,7 +53,9 @@ body {
 .card {
   box-shadow: 2px 6px 16px 3px #e4e4e7;
 }
-
+.card-title{
+  font-weight: bold;
+}
 .card-text {
   min-height: 90px;
   max-height: 90px;

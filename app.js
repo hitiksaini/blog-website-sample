@@ -56,6 +56,21 @@ app.post('/compose', function (req, res) {
     }
   });
 });
+
+// Dynamically make new URL's when Blog is to viewed on a separate webPage.
+app.get("/posts/:postId", function(req, res){
+
+const requestedPostId = req.params.postId;
+
+  Post.findOne({_id: requestedPostId}, function(err, post){
+    res.render("post", {
+      title: post.title,
+      content: post.content
+    });
+  });
+});
+
+
 //other pages of the blog website
 app.get('/about', function (req, res) {
   res.render('about');
