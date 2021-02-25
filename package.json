@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "blog project",
+  "description": "blog project by Hitik Saini",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js -e js,ejs"
