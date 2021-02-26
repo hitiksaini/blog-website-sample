@@ -18,7 +18,7 @@
   "dependencies": {
     "all": "^0.0.0",
     "body-parser": "^1.19.0",
-    "ejs": "^0.8.8",
+    "ejs": "^2.5.5",
     "ejs-locals": "^1.0.2",
     "express": "^4.17.1",
     "mongoose": "^5.11.18"
