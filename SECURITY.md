@@ -2,20 +2,15 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
+The provided code is maintained over time (once a month) and is updated with the latest tech available.
 
-| Version | Supported          |
+| Version | Features          |
 | ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| 2.0   | :white_check_mark: Bug Fixes, enhancement |
+| < 1.0   | :x: Not Optimised  |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+You can directly create a PR or open an issue for reporting any bug/ improvement.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+Thanks :)
